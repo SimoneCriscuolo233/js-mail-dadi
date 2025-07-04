@@ -19,3 +19,12 @@ if (found) {
 } else {
   console.log(`Non sei nella lista degli invitati`)
 }
+
+//-----DADI-----
+//Creo delle variabili per tenere il punteggio del user e del computer  
+let pcPoints = 0;
+let userPoints = 0;
+//Creo un sistema di generazione randomico di numeri sia per il computer che per l'utente
+const pcNumber = Math.floor(Math.random()*6) + 1;
+const userNumber = Math.floor(Math.random()*6) + 1;
+
