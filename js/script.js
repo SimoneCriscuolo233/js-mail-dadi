@@ -25,6 +25,22 @@ if (found) {
 let pcPoints = 0;
 let userPoints = 0;
 //Creo un sistema di generazione randomico di numeri sia per il computer che per l'utente
-const pcNumber = Math.floor(Math.random()*6) + 1;
-const userNumber = Math.floor(Math.random()*6) + 1;
+const pcNumber = Math.floor(Math.random() * 6) + 1;
+const userNumber = Math.floor(Math.random() * 6) + 1;
+//Controllo quale dei due numeri sia piu' grande e a seconda del risultato stampo un messaggio
+//Vince il computer
+if (pcNumber > userNumber) {
+  pcPoints++;
+  console.log(`Il numero del computer ${pcNumber} e' piu' grande del numero del utente ${userNumber}. Vince il computer. ${userPoints} ${pcPoints}`)
+} 
+//Vince l'utente
+else if (userNumber > pcNumber) {
+  userPoints++;
+  console.log(`Il numero del computer ${pcNumber} e' piu' piccolo del numero del utente ${userNumber}. Hai Vinto. ${userPoints} ${pcPoints}`)
+} 
+//Pareggio
+else {
+  console.log(`I numeri del compunter ${pcNumber} e dell'utente ${userNumber} sono uguali
+    Hai pareggiato. ${userPoints} ${pcPoints}`)
+}
 
