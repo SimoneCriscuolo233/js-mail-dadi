@@ -21,3 +21,15 @@ Se dobbiamo confrontare qualcosa che "cosa" ci serve?
 
 Fate sempre il file readme.md in cui scrivere i testi dell'esercizio e scomporre il problema in sottoproblemi.
 Numero di push minimo totale: 6
+
+MAIL
+
+1- Crea una lista di mail e chiedi la mail dell'utente.
+2- Controllo che la mail sia presente nella lista 
+3- Stampo un messaggio per comunicare l'esito del controllo.
+
+DADI
+
+1- Generare dei numeri random che vadano da 1 a 6 compresi.
+2- Creare un controllo per il numero piu' alto per assegnare dei punti
+3- Stampare l'esito.
